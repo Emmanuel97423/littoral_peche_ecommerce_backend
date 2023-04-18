@@ -29,8 +29,7 @@ const ADMIN_CORS = process.env.ADMIN_CORS || "http://localhost:7000,http://local
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
 
 // Database URL (here we use a local database called medusa-development)
-const DATABASE_URL =
-  process.env.DATABASE_URL || "";
+const DATABASE_URL = process.env.DATABASE_URL || "";
 // const DATABASE_URL =
 //   process.env.DATABASE_URL || "postgresql://Dev:dropknee97460@localhost:5432/littoral_peche_ecommerce";
 
